@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata</title>
+</head>
+<style>
+    body {
+        background-color: #eee9c8; 
+    }
+</style>
+</head>
+<body>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://th.bing.com/th/id/OIP.ymP4AIW1nAdkHJNWR_1nmwHaEK?rs=1&pid=ImgDetMain'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative; 
+        }
+        .logo {
+            position: absolute;
+            width: 100px; 
+            height: auto;
+        }
+        .logo-left {
+            top: 20px; 
+            left: 300px; 
+        }
+        .logo-right {
+            top: 20px; 
+            right: 300px; 
+        }
+        .text {
+            position: absolute;
+            top: 50px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            font-size: 30px; 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; 
+            font-weight: bold; 
+            color: white; 
+        }
+    </style>
+</head>
+
+    
+    <img src="images/LOGO.png" alt="Left Logo" class="logo logo-left">
+    <img src="images/itech.png" class="logo logo-right">
+    <div class="text">Web Technology and Programming </div>
+
+
+<head>
+    
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: #f0f0f0;
+        }
+
+        
+        .rectangle {
+            width: 650px; 
+            height: 480px; 
+            position: absolute; 
+            top: 150px;  
+            left: 330px; 
+            background-image: url('https://media-exp1.licdn.com/dms/image/C4D1BAQFLs2jkq5_7zA/company-background_10000/0?e=2159024400&v=beta&t=Fihh7yHQUXT0OnA8Z3XtSqLOGom6b8AdknRDjLRKkpA'); 
+            background-size: cover;
+            background-position: center;
+            border: 3px solid black; 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+            transition: box-shadow 0.3s ease, background-image 0.4s ease, transform 0.4s ease; 
+            overflow: hidden; 
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
+
+        
+        .rectangle:hover {
+            background-image: url('https://i.ytimg.com/vi/ocCCqT-6m3A/maxresdefault.jpg'); 
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); 
+            transform: scale(1.05); 
+        }
+
+        
+        .upper-right-image {
+            position: absolute; 
+            top: 10px;
+            right: 10px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            border: 2px solid red;
+            opacity: 0; 
+            transition: opacity 0.4s ease; 
+        }
+
+        
+        .rectangle:hover .upper-right-image {
+            opacity: 1; 
+        }
+
+        
+        .rectangle .text-outside {
+            opacity: 1;
+            transition: opacity 0.4s ease;
+            font-family: Arial, sans-serif;
+            font-size: 18px; 
+            color: white; 
+            font-weight: bold; 
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        
+        .biodata {
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: white; 
+            background-color: transparent; 
+            padding: 15px;
+            border-radius: 5px;
+            text-align: left;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 630px; 
+            height: 460px; 
+            overflow-y: auto; 
+        }
+
+        
+        .rectangle:hover .biodata {
+            opacity: 1; 
+        }
+
+       
+        .rectangle .text-inside {
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            font-family: 'Georgia', serif; 
+            font-size: 24px; 
+            color: #ffcc00; 
+            font-weight: normal; 
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        
+        .rectangle:hover .text-inside {
+            opacity: 1; 
+        }
+
+        
+        .rectangle:hover .text-outside {
+            opacity: 0; 
+        }
+    </style>
+</head>
+
+
+    <div class="rectangle">
+        <span class="text-outside"></span>
+        <span class="text-inside"></span>
+       
+       
+            <img src="images/axel.jpg" alt="John Axel's Photo" class="upper-right-image">
+        
+        <div class="biodata">
+            <h2>Personal Information</h2>
+            <h3><a href="Website.html" style="text-decoration: none; color: white;">John Axel B. Sacramento</a></h3>
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>Sex:</strong> Male</p>
+            <p><strong>Contact Number:</strong> 09933460669</p>
+            <p><strong>Address:</strong> Pasay, Philippines</p>
+            <p><strong>Email:</strong> Johnaxelsacramento59@gmail.com</p>
+            <p><strong>About Me</strong></p>
+            <p>A skilled and professional computer programmer demonstrates dedication to their work by consistently delivering efficient and scalable solutions. By leveraging expertise in various programming languages and a deep understanding of complex algorithms, coupled with strong problem-solving skills and a commitment to continuous learning, I ensured successful project outcomes.</p>
+            <p><strong>Skills</strong></p>
+            <ul>
+                <li>Time Management</li>
+                <li>Technology adaptability</li>
+                <li>Code Optimization</li>
+            </ul>
+        </div>
+    </div>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; 
+            position: relative;
+            background-color: #ffffff; 
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0; 
+            background-color: transparent; 
+        }
+
+        .mask {
+            position: absolute;
+            top: 150px;
+            left: 330px;
+            width: 650px;
+            height: 480px;
+            background: #ffffff; 
+            z-index: 1; 
+            clip-path: rect(0, 650px, 480px, 0); 
+        }
+
+        .rectangle {
+            position: absolute;
+            top: 150px;
+            left: 330px;
+            width: 650px;
+            height: 480px;
+            background-color: #ffffff;
+            border: 3px solid red;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 2; 
+        }
+    </style>
+</head>
+
+    <div id="particles-js"></div>
+
+    <div class="mask"></div> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+       
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 120, 
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ff4500" 
+                },
+                "shape": {
+                    "type": "polygon",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 6 
+                    }
+                },
+                "opacity": {
+                    "value": 0.7, 
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0.2,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5, 
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 3,
+                        "size_min": 1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false 
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 4,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+    
+
+
+
